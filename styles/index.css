@@ -1,0 +1,51 @@
+h1 {
+  color: green;
+  font-size: 40px;
+  font-weight: 300px;
+  font-style: italic;
+  text-align: center;
+  background-color: palegoldenrod;
+}
+
+/* comments
+# id
+. class
+ */
+
+p {
+  color: red;
+  color: orange;
+}
+
+#second-paragraph {
+  color: purple;
+}
+
+.cat-info,
+.last-paragraph {
+  color: pink;
+}
+.cat-section {
+  background-color: rgb(158, 12, 158 0.6);
+  opacity: 0.6;
+}
+
+body {
+  background-image: url(../images/bird.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* background: url(../images/bird.jpg);, no-repat, fixed, center, cover, cov; */
+  height: 200vh;
+}
+
+img {
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  border: 5px soild red;
+  border-top: 5px solid green;
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: 10px 10px 20px purple;
+}
